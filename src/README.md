@@ -4,8 +4,9 @@ layout: BlogHome
 icon: home
 title: Blog Home
 heroImage: /logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+bgImage: /Image20230206203816.jpg
+heroText: hugoliu
+tagline: you are the 2Bsss
 heroFullScreen: true
 projects:
   - icon: project
@@ -45,4 +46,3 @@ This is a blog home page demo.
 
 To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
 
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.vuepress/guide/blog/home/).
