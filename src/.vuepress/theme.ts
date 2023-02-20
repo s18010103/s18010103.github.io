@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/Image20230220204039.jpg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -71,6 +71,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
+        avatar: "/Image20230220201550.jpg",
         description: "A FrontEnd programmer",
         intro: "/intro.html",
       },
