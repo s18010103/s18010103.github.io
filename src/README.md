@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-heroImage: /Image20230220201550.jpg
-bgImage: /Image20230206203816.jpg
+heroImage: /Image20230227201555.jpg 
 heroText: hugoliu
 tagline: you are the 2Bsss
+bgImage: /Image20230206203816.jpg
 heroFullScreen: true
 projects:
   - icon: project
