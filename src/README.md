@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-heroImage: /Image20230227201555.jpg 
+heroImage: /Image20230312130948.jpg
 heroText: hugoliu
 tagline: you are the 2Bsss
 bgImage: /Image20230206203816.jpg
