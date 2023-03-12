@@ -43,8 +43,8 @@ export default hopeTheme({
 
       blog: {
         name: "hugoliu",
-        avatar: "/Image20230227201555.jpg",
-        description: "I am 2Bsss",
+        avatar: "/Image20230312130948.jpg",
+        description: "I am euhdjmsmcnhdjcnfbhdf......",
         intro: "/intro.html",
       },
 
