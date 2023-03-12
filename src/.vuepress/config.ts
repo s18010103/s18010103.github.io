@@ -4,7 +4,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "hugoliu",
+  title: "皮蛋520号",
   description: "A blog demo for vuepress-theme-hope",
   theme,
 
