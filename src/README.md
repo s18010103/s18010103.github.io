@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: Blog Home
 heroImage: /Image20230312132124.jpg
-heroText: hugoliu
+heroText: 皮蛋520号
 tagline: you are the 2Bsss
 bgImage: /Image20230206203816.jpg
 heroFullScreen: true
