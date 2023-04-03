@@ -8,7 +8,6 @@ export default defineUserConfig({
   description: "A blog demo for vuepress-theme-hope",
   theme,
 
-  
 
   shouldPrefetch: false,
 });
