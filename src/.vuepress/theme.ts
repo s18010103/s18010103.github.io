@@ -3,7 +3,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "http://localhost:8080/",
+  hostname: "https://hugoliu.top",
 
   author: {
     name: "皮蛋520号",
@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/Image20230312130948.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "s18010103/s18010103.github.io",
 
   docsDir: "docs",
 
