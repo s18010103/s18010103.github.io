@@ -1,5 +1,5 @@
 ---
-title: Hugo liu的筆記
+title: hug的第一個作文
 icon: python
 date: 2023-01-31 11:10:14
 author: 刘奕彤
