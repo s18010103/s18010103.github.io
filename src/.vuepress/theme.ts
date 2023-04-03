@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "皮蛋520号",
-    url: "https://mrhope.site",
+    url: "https://hugo.top",
   },
 
   iconAssets: "iconfont",
