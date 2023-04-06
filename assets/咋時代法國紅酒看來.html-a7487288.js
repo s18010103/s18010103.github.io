@@ -1,0 +1,1 @@
+import{_,W as e,X as t,Y as c}from"./framework-ab53c912.js";const o={},s=c("p",null,"你吹牛吹牛吹牛吹牛",-1),n=[s];function r(a,l){return e(),t("div",null,n)}const f=_(o,[["render",r],["__file","咋時代法國紅酒看來.html.vue"]]);export{f as default};
