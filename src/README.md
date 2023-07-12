@@ -2,10 +2,10 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: hugoliu top
 heroImage: /Image20230312132124.jpg
 heroText: 皮蛋520号
-tagline: you are the 2Bsss
+tagline: endear
 bgImage: /Image20230206203816.jpg
 heroFullScreen: true
 projects:
