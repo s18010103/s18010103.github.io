@@ -73,3 +73,63 @@ print(a)
 
 
 
+```python
+x = 1 # 1 賦值給了 x,x 代表 1
+x = x + 10 # x + 10 等價于 1 + 10 最後得出 11, 11 賦值給 x
+print(x)  # print 打印，輸出
+# 井號是用來注釋，注解，解釋某一行代碼的功能或者作用
+
+#---output---
+11
+```
+
+```python
+name1 = "lilei"
+name2 = name1
+print(name2)
+
+
+name1 = "lilei"
+name1 = "hanmeimei"
+print(name1)
+
+#---output---
+lilei
+hanmeimei
+```
+
+:::
+
+## 3.探究 print
+
+### 3.1 同時輸出多個數據
+
+```python
+a = 1
+b = 1
+c = 1
+print(a,b,c)
+
+# ---output---
+1 2 3 
+```
+
+從輸出的結果可以看出，print同時輸出多个变量，每个值之间默认以空格间隔。
+那么，我们可以修改这个默认空格间隔么？——答案显然是可以的
+
+使用sep
+
+### 3.2 sep修改多个变量同时输出的间隔
+
+```
+a = 1
+b = 2
+c = 3
+print(a , b , c , sep="12345678910")
+
+# ---output---
+1123456789102123456789103
+```
+
+
+
