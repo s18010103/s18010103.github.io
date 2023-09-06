@@ -256,8 +256,109 @@ a = 1
 
 ## [#](#_3-填空题) 3. 填空题
 
-1. 在 Python 中，_____ 关键字用于打印一个变量的值。
-2. Python 中的变量可以是
+1. 在 Python 中，_____ 关键字用于打印一个变量的值。print
+
+2. Python 中的变量可以是字符串、整数、浮点数或布尔类型。例如，my_str = "Hello World" 使 my_str 成为一个 _____。字符串
+
+3. 在 Python 中，我们可以通过 _____(my_var) 来打印变量 my_var。print
+
+4. 在 Python 中，我们可以使用 my_var = _____ 来创建一个值为 10 的变量 my_var。10
+
+5. 如果我们有两个变量 a = 5 和 b = 10，我们可以使用 print(a, _____) 来打印这两个变量的值。b
+
+6. 在 Python 中，变量名可以包含字母、数字和下划线，但不能以数字开头。例如，1my_var 是一个无效的变量名，但 _____ 是有效的。如果我有一个整数变量 my_int = 50，我可以通过在打印语句中添加 _____ 来打印 "The value of my integer is 50"。关键字
+
+7. 在 Python 中，通过使用 _____ 关键字，我们可以将一个变量的值分配给另一个变量。 print
+
+8. 例如，如果 a = 10 和 b = a，那么 b 的值也会变为10。
+
+9. 在 Python 中，我可以通过编写 my_str = _____ 来创建一个包含字符串 "Hello, Python!" 的变量 my_str。hellow, python
+
+10. 如果我有一个浮点型变量 my_float = 5.67，我可以使用 print(_____ + " is my floating point number") 来打印 "5.67 is my floating point number"。# str(my float)
+
+    # 4.编程题
+
+    ### 4.1 定义和输出变量
+
+    要求：定义一个变量，名字为 greeting，并将它的值设置为 `"Hello, World!"`。然后使用 print 函数将此变量的值打印出来。
+
+    ```python
+    greeting = "Hello world!"
+    print(greeting)
+    
+    # ---output---
+    # Hello world
+    ```
+
+    
+
+    ### 4.2 变量的赋值
+
+    要求：定义一个变量，名字为 number，并将它的值设置为 10。然后定义一个新的变量，名字为 copy_number，并将它的值设置为变量 number 的值。使用 print 函数分别打印这两个变量的值。
+
+    ```python
+    number = 10
+    copy_number = number
+    print(number)
+    print(copy_number)
+    
+    # ---output---
+    # 10
+    # 10
+    ```
+
+    
+
+    ### 4.3 变量的覆盖
+
+    要求：定义一个变量，名字为 food，并将它的值设置为 `"apple"`。然后将变量 food 的值改为 `"banana"`。使用 print 函数打印变量 food  的值，然后解释为什么打印的结果是 `"banana"`  而不是 `"apple"`。
+
+    
+
+    ### 4.4 使用 sep 和 end 参数
+
+    要求：定义三个变量 a、 b、c，分别赋值为 1，2，3。使用 print 函数打印这三个变量，使得输出的结果是 `1-2-3`，并且在输出之后不换行。
+
+    ```python
+    a, b, c = 1, 2, 3
+    print(a,b,c,sep = "-", end="")
+    
+    # ---output---
+    # 1-2-3
+    ```
+
+    
+
+    ### 4.5 同时输出多个变量
+
+    要求：定义四个变量 name、age、job、hobby，并分别赋值为你的名字、年龄、职业和爱好。使用一次 print 函数将这四个变量的值同时打印出来，每个值之间用逗号隔开。
+
+    ```python
+    name = "hugo"
+    age = "ten"
+    job = "no"
+    hobby = "play online game"
+    print(name, age, job, hobby, sep = "," , end ="")
+    
+    # ---output---
+    # hugo, ten, no, play online game
+    ```
+
+    
+
+    ### 4.6 多个变量赋予不同值和相同值
+
+    要求：定义三个变量 x、y、z，并且同时为它们赋予值 10。然后将 x 的值改为 20，y 的值改为30。使用 print 函数分别打印 x、y、z 的值。
+
+    ```python
+    x, y, z = 20, 30, 10
+    print(x, y, z)
+    
+    # ---output---
+    # 20, 30, 
+    ```
+
+    
 
 ------
 
