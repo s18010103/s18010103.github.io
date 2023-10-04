@@ -194,7 +194,7 @@ print(a, b, c)
 1 2 3
 ```
 
-#### 变量名的命名规则：
+## 5.变量名的命名规则：
 
 - 大小写英文、数学和＿的结合、且不能用数字开头；
 
@@ -207,6 +207,66 @@ print(a, b, c)
 - 变量名不能包含空格、但可使用下划线来分隔其中的单词。
 
 - 不要使用python的内置函数名称做变量名
+
+```python
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not                 
+```
+
+:::code-tabs
+
+@tad Code 1
+
+```python
+n = "A"
+N = "a"
+print(n)  # 如果变量不区分大小写的话，输出什么结果？—— a
+# 但是，它区分大小写，所以输出的是A
+
+# ---output---
+A
+```
+
+@tad Code 2
+
+```python
+# 不能用数字开头
+a121iy212c21 = "a" # 大小写英文、数学和＿的结合、且不能用数字开头；
+```
+
+@tad Code 3
+
+```python
+X  -> user name = "hugoliu"
+V  -> user_name = "hugoliu"
+```
+
+@tad Code 4
+```python
+ print = "aiyc" # 不能使用python内置函数名命名
+print(print) # python 分不清
+```
+
+@tab Code5
+
+```python
+# 关键词不能当作变量名
+await = "aiyc"
+print(await)  # await 在 Python当中有特殊功能，比如 while
+```
+
+
+
+
 
 
 
