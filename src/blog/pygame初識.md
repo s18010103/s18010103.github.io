@@ -1,7 +1,7 @@
 ---
 title: pygame初識
 icon: python
-date: 2023-04-17 19：49：59
+date: 2023-04-17 19:49:59
 author: 刘奕彤
 isOriginal: true
 category: 

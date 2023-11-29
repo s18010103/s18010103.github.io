@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://hugoliu.top",
@@ -32,10 +32,10 @@ export default hopeTheme({
   locales: {
     "/": {
       // navbar
-      navbar: enNavbar,
+      navbar: zhNavbar,
 
       // sidebar
-      sidebar: enSidebar,
+      sidebar: zhSidebar,
 
       footer: "Default footer",
 
@@ -56,27 +56,27 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
+    // "/zh/": {
+    //   // navbar
+    //   navbar: zhNavbar,
 
-      // sidebar
-      sidebar: zhSidebar,
+    //   // sidebar
+    //   sidebar: zhSidebar,
 
-      footer: "默认页脚",
+    //   footer: "默认页脚",
 
-      displayFooter: true,
+    //   displayFooter: true,
 
-      blog: {
-        description: "一个前端开发者",
-        intro: "/zh/intro.html",
-      },
+    //   blog: {
+    //     description: "一个前端开发者",
+    //     intro: "/zh/intro.html",
+    //   },
 
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+    //   // page meta
+    //   metaLocales: {
+    //     editLink: "在 GitHub 上编辑此页",
+    //   },
+    // },
   },
 
   encrypt: {
@@ -112,26 +112,26 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
-      codetabs: true,
-      container: true,
-      demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
-      gfm: true,
+      chart: false,
+      codetabs: false,
+      hint: true,
+      demo: false,
+      echarts: false,
+      figure: false,
+      flowchart: false,
+      gfm: false,
       imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
+      katex: false,
       mark: true,
-      mermaid: true,
+      mermaid: false,
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      // presentation: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
       stylize: [
         {
           matcher: "Recommended",
@@ -147,9 +147,9 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
-      vPre: true,
-      vuePlayground: true,
+      // tabs: true,
+      // vPre: true,
+      // vuePlayground: true,
     },
 
     // uncomment these if you want a PWA
