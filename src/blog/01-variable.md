@@ -160,7 +160,7 @@ print(c)
 
 :::
 
-### 3.4 eng和sep可以同时使用
+### 3.4 end和sep可以同时使用
 
 ```python
 a = 1
